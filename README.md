@@ -17,3 +17,6 @@ A simple and efficient Employee Management System designed to help organizations
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
+**
+Youtube link to system demonstration**
+https://youtu.be/3oxMhiebedY?si=pzi-oTWvP0qvvrml
