@@ -9,7 +9,7 @@ A simple and efficient Employee Management System designed to help organizations
 - 📞 Track emergency contact information
 - 📝 Log and view recent employee activity
 - 📂 Manage leave records and employment status (e.g., active, suspended, former)
-- 🔐 Secure admin login system
+- 🔐 Secure login system
 - 🧾 Store additional employee details like address, contact, ID number, etc.
 
 ## 🏗️ Tech Stack
