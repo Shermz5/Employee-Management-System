@@ -1,0 +1,29 @@
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: solid 2px #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.action-buttons a { 
+    margin: 0 5px; text-decoration: none; padding: 5px 10px; background: #ccc; border-radius: 5px;
+ }
+
+.approved { 
+    background-color: #4CAF50; color: white;
+ }
+
+.rejected {
+     background-color: #f44336; color: white;
+}

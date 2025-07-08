@@ -1,0 +1,21 @@
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #00695c;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: solid 2px #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

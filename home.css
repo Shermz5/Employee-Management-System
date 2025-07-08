@@ -1,0 +1,57 @@
+body{
+    font-family: "Manrope", sans-serif;  
+}
+
+.welcome-banner {
+    background-color: #00796b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.banner-buttons a {
+      background-color: white;
+      color: #0d47a1;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin-left: 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .banner-buttons a:hover {
+      background-color: #e3f2fd;
+    }
+
+.shortcuts-inline {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.shortcut-button{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.section {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+.shortcut-button:hover{
+    background-color: #01524980;
+}
+
+.section h2 {
+    color: #064e309d;
+}

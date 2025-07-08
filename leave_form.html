@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="leave_form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>EMS</title>
+</head>
+<body>
+    <button><a href="employee_home.php">Home</a></button>
+    <h1>Leave Form</h1>
+    <form action="submit_leave.php" method="POST">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name"><br><br>
+
+        <label for="employee_no">Employee Number</label>
+        <input type="text" name="employee_no" id="employee_no"><br><br>
+
+        <label for="from">From</label>
+        <input type="date" name="from" id="from"><br><br>
+
+        <label for="to">To</label>
+        <input type="date" name="to" id="to"><br><br>
+
+        <label for="leave_type">Type of Leave</label>
+        <select name="leave_type" id="leave_type">
+            <option value="vacation">Vacation</option>
+            <option value="annual">Annual</option>
+            <option value="maternity">Maternity</option>
+            <option value="paternity">Paternity</option>
+            <option value="bereavement">Bereavement</option>
+            <option value="sick">Sick</option>
+            <option value="unpaid">Unpaid</option>
+        </select><br><br>
+
+        <label for="reason">Reason</label>
+        <input type="text" name="reason" id="reason"><br><br>
+
+
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

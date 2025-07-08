@@ -1,0 +1,17 @@
+body{
+    font-family: "Manrope", sans-serif; 
+    display:flex;
+    align-items: center; 
+}
+
+h1{
+    color: rgb(4, 120, 47);
+}
+
+.section {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

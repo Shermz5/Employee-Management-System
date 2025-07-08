@@ -1,0 +1,39 @@
+body{
+     background-color: white;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: #00695c;
+}
+
+form{
+    max-width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    color: #01433b;
+    margin-top: 15px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 12px;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timesheet.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>EMS</title>
+</head>
+<body>
+    <button><a href="employee_home.php">Home</a></button>
+    <h1>Timesheet</h1>
+    <form action="submit_timesheet.php" method="POST">
+         <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name"><br><br>
+
+        <label for="employee_no">Employee Number</label>
+        <input type="text" name="employee_no" id="employee_no"><br><br>
+        
+        <label for="calendar">Date</label>
+        <input type="date" id="calendar" name="calendar"><br><br>
+
+        <label for="time_in">Time In</label>
+        <input type="time" id="time_in" name="time_in"><br><br>
+
+        <label for="time_out">Time Out</label>
+        <input type="time" id="time_out" name="time_out"><br><br>
+
+        <label for="main_activity">Main Activity</label>
+        <input type="text" id="main_activity" name="main_activity"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+    flatpickr("#calendar", {
+      dateFormat: "Y-m-d"
+    });
+  </script>
+</body>
+</html>
